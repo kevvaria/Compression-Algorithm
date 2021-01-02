@@ -51,7 +51,7 @@ print "\n\nSymbol\tWeight\tHuffman Code"
 for p in huff:
     print "%s\t%s\t%s" % (p[0], symb2freq[p[0]], p[1])
 
-print "\n\nCompression Ratio: "
+print "\n\nCompression Ratio (Exected from calculations): "
 print "My binary file is 13.2kb"
 print "My decoded file is 6.2kb"
 print "The conversion ratio is 2:1"
